@@ -1,0 +1,15 @@
+[Unit]
+Description=DESTANDAARD
+
+[Service]
+ExecStart=/home/root/renews.arm \
+    -output /usr/share/remarkable/suspended.png \
+    -verbose \
+    -cooldown COOLDOWN \
+    -url https://www.dropbox.com/s/2in9v3ahdor1xww/destandaard.jpg?dl=1 \
+    -strftime \
+    -mode fill
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

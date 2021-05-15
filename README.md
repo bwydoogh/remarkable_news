@@ -27,6 +27,7 @@ Install [WSL](https://docs.microsoft.com/en-us/learn/modules/get-started-with-wi
 
 ## Supported News/Comics Sources
 
+- De Standaard - `make install_destandaard`
 - XKCD - `make install_xkcd`
 - Washington Post (only updates weekdays) - `make install_wp`
 - New York Times (slightly low resolution) - `make install_nyt`

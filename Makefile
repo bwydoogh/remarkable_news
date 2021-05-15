@@ -84,6 +84,10 @@ install_dilbert: renews.arm
 install_uk_tg: renews.arm
 	$(call install,services/uk_tg.service)
 
+.PHONY: install_destandaard
+install_destandaard: renews.arm
+	$(call install,services/destandaard.service)
+
 # .PHONY: install_wikipotd
 # install_wikipotd: renews.arm
 # 	$(call install,services/wikipotd.service)
